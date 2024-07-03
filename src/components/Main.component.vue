@@ -6,7 +6,12 @@
                 </h1>
                 <p>My Current Stack includes Typescript, Angular, <span class="text-emerald-400">Vue</span>, Svelte, Ionic, Tailwind, Node.js + Express, and MongoDB.</p>
             <div class="flex flex-col items-center pt-4">
-                <a class="py-2 px-4 bg-white rounded-full cursor-pointer hover:bg-emerald-400 duration-200 text-black"> Get in touch →</a>
+                <a href="#contact" class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer">
+                    <div
+                    class="absolute top-0 right-full w-full h-full bg-emerald-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                    />
+                    <h4 class="relative z-9">Get in touch &rarr;</h4>
+                </a>
             </div>
         </div>
         <div class=" p-2 mx-auto">

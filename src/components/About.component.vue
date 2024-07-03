@@ -1,10 +1,7 @@
 <template>
-    <div class="pb-12" >
-        <div class="mb-8 flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-slate-50 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-slate-50 py-4">
-            <div class="text-white">
-                <p>Want to know more?</p>
-                <p class="text-4xl font-semibold md:text-5xl lg:text-6xl">A bit <span class="text-emerald-400">about</span> me</p>
-            </div>
+    <div class="pb-12" id="highlight">
+        <div class="mb-8 flex flex-col gap-2 text-center text-white relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-slate-50 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-slate-50 py-4">
+            <p class="text-2xl font-semibold md:text-4xl lg:text-5xl">Meet the <span class="text-emerald-400">Developer</span></p>
         </div>
     </div>
         <div v-for="item, index in aboutSection" :key="index" class="max-w-[500px] py-4 flex p-4 gap-6 mx-auto sm:max-w-[600px] lg:max-w-[800px] text-white">

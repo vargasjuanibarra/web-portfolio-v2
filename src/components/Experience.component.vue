@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center md:py-12 lg:py-24 w-full">
-    <h3 class="text-3xl font-semibold md:text-5xl lg:text-6xl text-white pb-12">Professional <span class="text-emerald-400">experiences</span></h3>
+    <h3 class="text-2xl font-semibold md:text-4xl lg:text-5xl text-white pb-12">Professional <span class="text-emerald-400">experiences</span></h3>
     <div class="relative flex flex-col">
       <div 
         v-for="(event, index) in events" 

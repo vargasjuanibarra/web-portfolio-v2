@@ -2,7 +2,7 @@
     <div class="grid py-8 md:px-2 md:py-12 text-white">
         <div class="text-white text-center mb-8 md:pb-12">
             <p class="text-2xl font-semibold">a few of my creative endeavors.</p>
-            <h2 class="text-4xl font-semibold text-wrap md:text-5xl lg:text-6xl">Curious to <span class="text-emerald-400">see</span> my work?</h2>
+            <h2 class="text-2xl font-semibold text-wrap md:text-4xl lg:text-5xl">Curious to <span class="text-emerald-400">see</span> my work?</h2>
         </div>
         <div class="grid gap-5  p-4 sm:grid-cols-2 lg:grid-cols-3">
             <div class="relative border rounded-lg my-4 hover:border-gray-600 duration-200 items-center" v-for="project, index in projects" :key="index">
@@ -16,9 +16,9 @@
                     <a :href="project.repo" class="absolute bottom-0 left-0 right-2 p-4 rounded-lg" >
                         <font-awesome-icon :icon="['fab', 'github']" size="2xl" class="hover:scale-110 transform-transition duration-200 easi-in-out"/>
                     </a>
-                    <a :href="project.link" class="absolute bottom-0 right-0 rounded-lg">
-                        <div class="relative cursor-pointer rounded-lg p-2 hover:text-slate-950 duration-200 after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full after:bg-white after:duration-200 hover:after:translate-x-full after:z-[10] overflow-hidden ">
-                            <p class="p-2 z-4 ">Go to →</p>
+                    <a :href="project.link" class="absolute bottom-0 right-0 rounded-lg" >
+                        <div class="ml-auto cursor-pointer rounded-md p-2 hover:text-slate-950 duration-200 hover:bg-emerald-400  relative after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full after:bg-white after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
+                            <p class="relative p-2 z-4">Go to &rarr;</p>
                         </div>
                     </a>
                 </div>
