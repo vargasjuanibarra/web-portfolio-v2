@@ -3,8 +3,9 @@
     <header class="p-4">
       <div class="flex justify-between items-center">
         <div>
-            <a href="#main"></a>
-          <img src="../assets/juan-logo.ico" alt="" class="cursor-pointer hover:scale-110 transform-transition duration-200 easi-in-out">
+            <a href="#main">
+                <img src="../assets/juan-logo.ico" alt="" class="cursor-pointer hover:scale-110 transform-transition duration-200 easi-in-out">
+            </a>
         </div>
         <div class="hidden sm:flex justify-end text-white">
           <ul class="flex">
