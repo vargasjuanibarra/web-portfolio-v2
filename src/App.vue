@@ -1,10 +1,10 @@
 <template>
   <div class="bg-slate-900">
-    <div class="max-w-[1200px] m-auto px-4">
+    <div class="max-w-[1200px] m-auto px-4" >
       <Header />
-      <Main></Main>
+      <Main id="main"></Main>
       <Projects id="projects"/>
-      <Highlight id="highlight"/>
+      <Highlight />
       <Experience id="experience"/>
     </div>
     <Footer id="contact"/>

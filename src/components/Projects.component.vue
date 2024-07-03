@@ -70,13 +70,13 @@
         { 
             id: 5,
             title: 'E-commerce Store',
-            icon: 'fa-regular fa-cart-shopping',
+            icon: 'cart-shopping',
             description: 'The e-commerce website I developed serves as a testament to my ability to construct an application from scratch, while simultaneously mastering the SvelteKit framework. This project underscores my commitment to continuous learning and professional growth in web development.'
         },
         { 
             id: 6,
             title: 'E-commerce Store',
-            icon: 'fa-regular fa-cart-shopping',
+            icon: 'cart-shopping',
             description: 'The e-commerce website I developed serves as a testament to my ability to construct an application from scratch, while simultaneously mastering the SvelteKit framework. This project underscores my commitment to continuous learning and professional growth in web development.'
         },
     ]

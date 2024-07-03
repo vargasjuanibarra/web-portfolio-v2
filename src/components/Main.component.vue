@@ -1,5 +1,5 @@
 <template>
-    <div class="justify-between items-center md:p-8 md:flex w-full text-white mt-4 mb-12 my-auto">
+    <div class="justify-between items-center md:p-8 md:flex w-full text-white mt-4 mb-12 my-auto" id="main">
         <div class="text-center pt-8 pb-4 flex flex-col gap-5 md:text-start px-4">
                 <h1 class="text-5xl font-semibold text-wrap md:text-5xl lg:text-6xl">
                     Hi I'm <span class="text-emerald-400">Juan </span> Vargas Fullstack <span class="text-emerald-400">Developer</span> 
