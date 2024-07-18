@@ -1,11 +1,15 @@
 <template>
-  <div class="bg-slate-900 shadow-xl sticky top-0 z-[500]">
+  <div class="bg-slate-900 sticky top-0 z-[500] max-w-[1200px] mx-auto">
     <header class="p-4">
       <div class="flex justify-between items-center">
         <div>
-            <a href="#main">
-                <img src="../assets/juan-logo.ico" alt="" class="cursor-pointer hover:scale-110 transform-transition duration-200 easi-in-out">
-            </a>
+          <a href="#main">
+            <img
+              src="../assets/juan-logo.ico"
+              alt=""
+              class="cursor-pointer hover:scale-110 transform-transition duration-200 easi-in-out"
+            />
+          </a>
         </div>
         <div class="hidden sm:flex justify-end text-white">
           <ul class="flex">
@@ -28,8 +32,7 @@
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style>
 /* Global or non-scoped styles */

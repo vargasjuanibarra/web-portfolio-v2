@@ -1,13 +1,13 @@
 <template>
   <div class="bg-slate-900">
-    <div class="max-w-[1200px] m-auto px-4" >
-      <Header />
+    <Header />
+    <div class="max-w-[1200px] m-auto px-4">
       <Main id="main"></Main>
-      <Projects id="projects"/>
+      <Projects id="projects" />
       <Highlight />
-      <Experience id="experience"/>
+      <Experience id="experience" />
     </div>
-    <Footer id="contact"/>
+    <Footer id="contact" />
   </div>
 </template>
 
