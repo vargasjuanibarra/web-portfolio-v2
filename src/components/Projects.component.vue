@@ -71,7 +71,7 @@ const projects = [
     icon: "cart-shopping",
     description:
       "The e-commerce website I developed serves as a testament to my ability to construct an application from scratch, while simultaneously mastering the SvelteKit framework. This project underscores my commitment to continuous learning and professional growth in web development.",
-    stack: "Typescript, SvelteKit, Tailwind",
+    stack: "Typescript, SvelteKit, Tailwind, Prisma, Postgres",
     link: "https://ecommerce-website-pclm-1qj0zf54u-vargasjuanibarras-projects.vercel.app/",
     // link: 'https://supremesalestation.netlify.app/',
     repo: "https://github.com/vargasjuanibarra/ecommerce-website",

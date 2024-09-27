@@ -11,7 +11,7 @@
       <p>
         My Current Stack includes Typescript, Angular,
         <span class="text-emerald-400">Vue</span>, Svelte, Ionic, Tailwind,
-        Node.js + Express, and MongoDB.
+        Node.js + Express, MongoDB, Prisma and Postgresql.
       </p>
       <div class="flex flex-col items-center pt-4">
         <a
@@ -37,8 +37,8 @@
   </div>
 </template>
 <script>
-particlesJS.load('particles-js', '/particles.json', function () {
-  console.log('callback - particles.js config loaded');
+particlesJS.load("particles-js", "/particles.json", function () {
+  console.log("callback - particles.js config loaded");
 });
 </script>
 <style lang=""></style>
